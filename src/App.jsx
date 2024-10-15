@@ -1,4 +1,5 @@
 import './App.css'
+// import Modal from './components/utilities/Modal'
 //import Loader from './common/Loader'
 //import Sidebar from './layouts/Sidebar'
 //import MailList from './pages/MailList' 
@@ -10,15 +11,16 @@ import SendMail from './pages/SendMail'
 function App() {
 
   return (
-    <>
+    <div className='bg-black'>
+      {/* <Modal error={false} /> */}
       {/* <Loader/> 
       <Sidebar on={true} handleClick={false}/>
       <MailList /> */}
-      <SendMail /> 
+       <SendMail /> 
       {/* <MailList /> 
       <MailReceive /> 
       <FollowingMail /> */}
-    </>
+    </div>
   )
 }
 
